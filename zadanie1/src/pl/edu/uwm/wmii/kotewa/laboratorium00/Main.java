@@ -12,7 +12,7 @@ public class Main {
         System.out.println(styczen+luty+marzec);
         //zad 2
         int suma=0;
-        for(int i=0;i<=10;i++)
+        for(int i=0;i<10;i++)
         {
             suma+=i;
         }

@@ -57,13 +57,13 @@ public class Main {
         System.out.println(film2);
         System.out.println(film3);
         //zad 11
-        String wiersz="Dwadzieœcia siedem koœci,\n" +
-                "trzydzieœci piêæ miêœni,\n" +
-                "oko³o dwóch tysiêcy komórek nerwowych\n" +
-                "w ka¿dej opuszce naszych piêciu palców.\n" +
-                "To zupe³nie wystarczy,\n" +
-                "¿eby napisaæ „Mein Kampf”\n" +
-                "albo „Chatkê Puchatka”.";
+        String wiersz="DwadzieÅ›cia siedem koÅ›ci,\n" +
+                "trzydzieÅ›ci piÄ™Ä‡ miÄ™Å›ni,\n" +
+                "okoÅ‚o dwÃ³ch tysiÄ™cy komÃ³rek nerwowych\n" +
+                "w kaÅ¼dej opuszce naszych piÄ™ciu palcÃ³w.\n" +
+                "To zupeÅ‚nie wystarczy,\n" +
+                "Å¼eby napisaÄ‡ â€Mein Kampfâ€\n" +
+                "albo â€ChatkÄ™ Puchatkaâ€.";
         System.out.println(wiersz);
         //zad 12
         System.out.println("* * * * * * ==================================\n" + "* * * * *  ==================================\n" +
@@ -76,3 +76,4 @@ public class Main {
                 "==============================================");
     }
 }
+MAIL DO WYSLANIA GITA amisomadutta@gmail.com

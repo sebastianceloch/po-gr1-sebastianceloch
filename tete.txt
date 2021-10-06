@@ -1,0 +1,78 @@
+package pl.edu.uwm.wmii.kotewa.laboratorium00;
+
+public class Main {
+
+    public static void main(String[] args) {
+	//testowy
+        System.out.println(31+29+31);
+        //zad 1
+        int styczen=31;
+        int luty=29;
+        int marzec=31;
+        System.out.println(styczen+luty+marzec);
+        //zad 2
+        int suma=0;
+        for(int i=0;i<=10;i++)
+        {
+            suma+=i;
+        }
+        System.out.println(suma);
+        //zad 3
+        int iloczyn=1;
+        for(int i=1;i<=10;i++)
+        {
+            iloczyn*=i;
+        }
+        System.out.println(iloczyn);
+        //zad 4
+        double saldo=1000;
+        System.out.println(saldo);
+        double saldo2=saldo*1.06;
+        System.out.println(saldo2);
+        double saldo3=saldo2*1.06;
+        System.out.println(saldo3);
+        //zad 5
+        System.out.println(" ____");
+        System.out.println("|JAVA|");
+        System.out.println(" ----");
+        //zad 6
+        System.out.println("  ////// \n +\"\"\"\"\"+ \n(| o o |) \n  | ^ | \n | '_` |\n +-----+");
+        //zad 7
+        String imie="Sebastian Celoch";
+        System.out.println(imie.toUpperCase());
+        //zad 8
+        System.out.println("   +\n" + "  + +\n" + "  + +\n" + "+-----+\n" + "| .-. |\n" + "| | | |\n" + "+-+-+-+");
+        //zad 9
+        System.out.println(" /\\_/\\    -----\n" +
+                "( ` ' ) / Hello \\\n" +
+                "(  -  ) < Junior |\n" +
+                " | | |  \\ Coder!/\n" +
+                "(__|__)   -----");
+
+        //zad 10
+        String film = "James Bond";
+        String film2 = "James Bond2";
+        String film3 = "James Bond3";
+        System.out.println(film);
+        System.out.println(film2);
+        System.out.println(film3);
+        //zad 11
+        String wiersz="Dwadzieœcia siedem koœci,\n" +
+                "trzydzieœci piêæ miêœni,\n" +
+                "oko³o dwóch tysiêcy komórek nerwowych\n" +
+                "w ka¿dej opuszce naszych piêciu palców.\n" +
+                "To zupe³nie wystarczy,\n" +
+                "¿eby napisaæ „Mein Kampf”\n" +
+                "albo „Chatkê Puchatka”.";
+        System.out.println(wiersz);
+        //zad 12
+        System.out.println("* * * * * * ==================================\n" + "* * * * *  ==================================\n" +
+                "* * * * * * ==================================\n"+" * * * * *  ==================================\n"+
+                "* * * * * * ==================================\n"+" * * * * *  ==================================\n"+
+                "* * * * * * ==================================\n"+" * * * * *  ==================================\n"+
+                "* * * * * * ==================================\n"+"==============================================\n"+
+                "==============================================\n"+"==============================================\n"+
+                "==============================================\n"+"==============================================\n"+
+                "==============================================");
+    }
+}

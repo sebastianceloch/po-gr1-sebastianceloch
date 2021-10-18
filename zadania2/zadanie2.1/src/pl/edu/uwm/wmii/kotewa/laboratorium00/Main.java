@@ -48,14 +48,14 @@ public class Main {
 
         }
         System.out.println(ile);
-        //2d przykład d nie działa mi warunek
-        //    ile=0;
-        //   for(int l=0;l<a.length;l++)
-        //   {
-        //       if(a[l]<(a[l-1]+a[l+1]/2))
-        //          ile++;
-        //  }
-        //  System.out.println(ile);
+       // 2d
+            ile=0;
+           for(int l=0;l<a.length-1;l++)
+           {
+               if(a[l]<(a[l]+a[l+1]/2))
+                 ile++;
+          }
+          System.out.println(ile);
         //2e
         ile=0;
         for(int o=0;o<a.length;o++)

@@ -86,8 +86,12 @@ public class Main {
 			{
 				maxlen=lendod;
 			}
-
+		else
+		{
+		lendod=0;
 		}
+		}
+		
 	}
 	System.out.println(maxlen);
 	for(int w=0;w<n-1;w++)

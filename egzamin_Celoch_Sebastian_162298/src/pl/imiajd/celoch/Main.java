@@ -38,7 +38,7 @@ public class Main {
         for(int i=1;i<=books.size()-1;i++)
         {
             books.remove(n);
-            n+=1;
+            n+=n;
         }
     }
 }
